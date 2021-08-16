@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+      justify-content: center;
+      background-color: #1f1f1f ;
+
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+.heading h1 {
+    color: limegreen;
+    font-size: 70px;
+}
+.heading h3 {
+    color: wheat;
+    font-size: 20px;
+}
+#particles-js {
+    background: #1f1f1f;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.particles-js-canvas-el {
+     position: absolute;
+}
+
+#intro-typed {
+    color: #ffdf24;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+#particles-js {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+  }
+ 
+  #particles-js p {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+    color:  #ffdf24;
+  }
+ #particles-js p span.typed-text {
+    font-weight: normal;
+    color: #ffdf24;
+    font-weight: bold;
+  }
+ #particles-js p span.cursor {
+    display: inline-block;
+    background-color: #ffdf24;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+  }
+  #particles-js p span.cursor.typing {
+    animation: none;
+  }
+  @keyframes blink {
+    0%  { background-color: #ccc; }
+    49% { background-color: #ccc; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100%  { background-color: #ccc; }
+  }
+
