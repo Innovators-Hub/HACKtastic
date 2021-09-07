@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["HACKtastic v1.0 💻","From 9th to 12th Sept", "Celebrating Programmers Week",  "Join us and be the most Hacktastic",];
+const textArray = ["HACKtastic v1.0 💻","Coming Soon", "Celebrating programming and innovation",  "Join us and be the most Hacktastic",];
 const typingDelay = 60;
 const erasingDelay = 60;
 const newTextDelay = 1100; // Delay between current and next text
